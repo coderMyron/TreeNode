@@ -14,6 +14,8 @@
 		A13BCC6322F6CBBD00858D1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13BCC6122F6CBBD00858D1F /* LaunchScreen.storyboard */; };
 		A13BCC6E22F6CBBD00858D1F /* TreeNodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13BCC6D22F6CBBD00858D1F /* TreeNodeTests.swift */; };
 		A13BCC7922F6CBBD00858D1F /* TreeNodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13BCC7822F6CBBD00858D1F /* TreeNodeUITests.swift */; };
+		A13BCC8722F6CCE100858D1F /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13BCC8622F6CCE100858D1F /* TreeNode.swift */; };
+		A13BCC8922F6CD3800858D1F /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13BCC8822F6CD3800858D1F /* Queue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A13BCC7422F6CBBD00858D1F /* TreeNodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreeNodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A13BCC7822F6CBBD00858D1F /* TreeNodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNodeUITests.swift; sourceTree = "<group>"; };
 		A13BCC7A22F6CBBD00858D1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13BCC8622F6CCE100858D1F /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		A13BCC8822F6CD3800858D1F /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				A13BCC5F22F6CBBD00858D1F /* Assets.xcassets */,
 				A13BCC6122F6CBBD00858D1F /* LaunchScreen.storyboard */,
 				A13BCC6422F6CBBD00858D1F /* Info.plist */,
+				A13BCC8822F6CD3800858D1F /* Queue.swift */,
+				A13BCC8622F6CCE100858D1F /* TreeNode.swift */,
 			);
 			path = TreeNode;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			files = (
 				A13BCC5B22F6CBBC00858D1F /* ViewController.swift in Sources */,
 				A13BCC5922F6CBBC00858D1F /* AppDelegate.swift in Sources */,
+				A13BCC8722F6CCE100858D1F /* TreeNode.swift in Sources */,
+				A13BCC8922F6CD3800858D1F /* Queue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +447,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.myron.TreeNode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myron.Stack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,7 +465,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.myron.TreeNode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myron.Stack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
